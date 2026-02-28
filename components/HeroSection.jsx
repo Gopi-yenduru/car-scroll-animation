@@ -171,7 +171,7 @@ export default function HeroSection() {
           <img
             ref={carRef}
             className="car-image"
-            src="/car.svg"
+            src="/car-scroll-animation/car.svg"
             alt="McLaren 720S top view"
           />
         </div>
