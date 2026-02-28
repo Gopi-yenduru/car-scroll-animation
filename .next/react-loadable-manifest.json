@@ -1,0 +1,14 @@
+{
+  "..\\components\\HeroSection.jsx -> gsap": {
+    "id": "..\\components\\HeroSection.jsx -> gsap",
+    "files": [
+      "static/chunks/node_modules_gsap_index_js.js"
+    ]
+  },
+  "..\\components\\HeroSection.jsx -> gsap/ScrollTrigger": {
+    "id": "..\\components\\HeroSection.jsx -> gsap/ScrollTrigger",
+    "files": [
+      "static/chunks/node_modules_gsap_ScrollTrigger_js.js"
+    ]
+  }
+}
