@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 800" fill="none">
+  <!-- Car body shadow/glow -->
+  <ellipse cx="200" cy="400" rx="120" ry="280" fill="rgba(232,200,74,0.06)"/>
+  
+  <!-- Main body -->
+  <path d="M120 200 Q100 300 95 400 Q95 520 120 600 Q140 680 200 700 Q260 680 280 600 Q305 520 305 400 Q305 300 280 200 Q265 130 200 110 Q135 130 120 200Z" 
+        fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- Body highlight left -->
+  <path d="M120 200 Q105 300 100 400 Q100 480 115 560" 
+        stroke="rgba(255,255,255,0.06)" stroke-width="2" fill="none"/>
+  
+  <!-- Body highlight right -->
+  <path d="M280 200 Q295 300 300 400 Q300 480 285 560" 
+        stroke="rgba(255,255,255,0.06)" stroke-width="2" fill="none"/>
+
+  <!-- Roof/cabin area -->
+  <path d="M145 260 Q140 300 138 360 Q138 430 145 490 Q155 540 200 555 Q245 540 255 490 Q262 430 262 360 Q260 300 255 260 Q240 220 200 215 Q160 220 145 260Z" 
+        fill="#111" stroke="#222" stroke-width="1"/>
+
+  <!-- Windshield -->
+  <path d="M155 265 Q152 295 150 340 L250 340 Q248 295 245 265 Q230 235 200 232 Q170 235 155 265Z" 
+        fill="rgba(100,140,200,0.15)" stroke="rgba(100,140,200,0.3)" stroke-width="1"/>
+
+  <!-- Windshield glare -->
+  <path d="M162 268 Q162 290 163 310 L175 310 L175 272 Q170 264 162 268Z" 
+        fill="rgba(255,255,255,0.08)"/>
+
+  <!-- Rear window -->
+  <path d="M155 480 Q152 450 150 430 L250 430 Q248 450 245 480 Q230 508 200 510 Q170 508 155 480Z" 
+        fill="rgba(100,140,200,0.1)" stroke="rgba(100,140,200,0.2)" stroke-width="1"/>
+
+  <!-- Center console ridge -->
+  <path d="M193 345 L193 425 Q197 430 200 430 Q203 430 207 425 L207 345 Q203 340 200 340 Q197 340 193 345Z" 
+        fill="#0d0d0d"/>
+
+  <!-- Hood grille area -->
+  <path d="M165 190 Q175 160 200 150 Q225 160 235 190 L220 195 Q210 170 200 165 Q190 170 180 195Z" 
+        fill="#0f0f0f" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Front bumper -->
+  <path d="M150 150 Q165 115 200 105 Q235 115 250 150 Q245 160 240 165 Q225 145 200 140 Q175 145 160 165 Q155 160 150 150Z" 
+        fill="#141414" stroke="#232323" stroke-width="1"/>
+
+  <!-- Front headlights left -->
+  <path d="M148 152 Q140 145 138 138 Q145 128 155 130 Q160 140 158 150Z" 
+        fill="rgba(255,240,180,0.9)" filter="url(#glow)"/>
+  
+  <!-- Front headlights right -->
+  <path d="M252 152 Q260 145 262 138 Q255 128 245 130 Q240 140 242 150Z" 
+        fill="rgba(255,240,180,0.9)" filter="url(#glow)"/>
+
+  <!-- Rear bumper -->
+  <path d="M150 650 Q165 685 200 695 Q235 685 250 650 Q245 640 240 635 Q225 655 200 660 Q175 655 160 635 Q155 640 150 650Z" 
+        fill="#141414" stroke="#232323" stroke-width="1"/>
+
+  <!-- Rear lights left -->
+  <path d="M148 648 Q140 655 138 662 Q145 672 155 670 Q160 660 158 650Z" 
+        fill="rgba(220,40,40,0.9)"/>
+  
+  <!-- Rear lights right -->
+  <path d="M252 648 Q260 655 262 662 Q255 672 245 670 Q240 660 242 650Z" 
+        fill="rgba(220,40,40,0.9)"/>
+
+  <!-- Rear diffuser lines -->
+  <line x1="175" y1="668" x2="175" y2="658" stroke="rgba(232,200,74,0.4)" stroke-width="1.5"/>
+  <line x1="190" y1="672" x2="190" y2="660" stroke="rgba(232,200,74,0.4)" stroke-width="1.5"/>
+  <line x1="205" y1="673" x2="205" y2="661" stroke="rgba(232,200,74,0.4)" stroke-width="1.5"/>
+  <line x1="220" y1="672" x2="220" y2="660" stroke="rgba(232,200,74,0.4)" stroke-width="1.5"/>
+  <line x1="225" y1="668" x2="225" y2="658" stroke="rgba(232,200,74,0.4)" stroke-width="1.5"/>
+
+  <!-- Side mirrors left -->
+  <path d="M96 295 Q88 288 85 280 Q88 272 96 272 L110 278 L108 300Z" 
+        fill="#161616" stroke="#222" stroke-width="1"/>
+  
+  <!-- Side mirrors right -->
+  <path d="M304 295 Q312 288 315 280 Q312 272 304 272 L290 278 L292 300Z" 
+        fill="#161616" stroke="#222" stroke-width="1"/>
+
+  <!-- Front wheels left -->
+  <rect x="68" y="215" width="52" height="90" rx="8" fill="#0d0d0d" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="72" y="219" width="44" height="82" rx="6" fill="#111"/>
+  <!-- Wheel rim left front -->
+  <circle cx="94" cy="260" r="22" fill="none" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="94" cy="260" r="8" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  <line x1="94" y1="238" x2="94" y2="252" stroke="#333" stroke-width="2"/>
+  <line x1="94" y1="268" x2="94" y2="282" stroke="#333" stroke-width="2"/>
+  <line x1="72" y1="260" x2="86" y2="260" stroke="#333" stroke-width="2"/>
+  <line x1="102" y1="260" x2="116" y2="260" stroke="#333" stroke-width="2"/>
+
+  <!-- Rear wheels left -->
+  <rect x="68" y="495" width="52" height="90" rx="8" fill="#0d0d0d" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="72" y="499" width="44" height="82" rx="6" fill="#111"/>
+  <circle cx="94" cy="540" r="22" fill="none" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="94" cy="540" r="8" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  <line x1="94" y1="518" x2="94" y2="532" stroke="#333" stroke-width="2"/>
+  <line x1="94" y1="548" x2="94" y2="562" stroke="#333" stroke-width="2"/>
+  <line x1="72" y1="540" x2="86" y2="540" stroke="#333" stroke-width="2"/>
+  <line x1="102" y1="540" x2="116" y2="540" stroke="#333" stroke-width="2"/>
+
+  <!-- Front wheels right -->
+  <rect x="280" y="215" width="52" height="90" rx="8" fill="#0d0d0d" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="284" y="219" width="44" height="82" rx="6" fill="#111"/>
+  <circle cx="306" cy="260" r="22" fill="none" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="306" cy="260" r="8" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  <line x1="306" y1="238" x2="306" y2="252" stroke="#333" stroke-width="2"/>
+  <line x1="306" y1="268" x2="306" y2="282" stroke="#333" stroke-width="2"/>
+  <line x1="284" y1="260" x2="298" y2="260" stroke="#333" stroke-width="2"/>
+  <line x1="314" y1="260" x2="328" y2="260" stroke="#333" stroke-width="2"/>
+
+  <!-- Rear wheels right -->
+  <rect x="280" y="495" width="52" height="90" rx="8" fill="#0d0d0d" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="284" y="499" width="44" height="82" rx="6" fill="#111"/>
+  <circle cx="306" cy="540" r="22" fill="none" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="306" cy="540" r="8" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  <line x1="306" y1="518" x2="306" y2="532" stroke="#333" stroke-width="2"/>
+  <line x1="306" y1="548" x2="306" y2="562" stroke="#333" stroke-width="2"/>
+  <line x1="284" y1="540" x2="298" y2="540" stroke="#333" stroke-width="2"/>
+  <line x1="314" y1="540" x2="328" y2="540" stroke="#333" stroke-width="2"/>
+
+  <!-- Brake caliper accent (gold) -->
+  <rect x="72" y="238" width="8" height="14" rx="2" fill="rgba(232,200,74,0.7)"/>
+  <rect x="72" y="518" width="8" height="14" rx="2" fill="rgba(232,200,74,0.7)"/>
+  <rect x="320" y="238" width="8" height="14" rx="2" fill="rgba(232,200,74,0.7)"/>
+  <rect x="320" y="518" width="8" height="14" rx="2" fill="rgba(232,200,74,0.7)"/>
+
+  <!-- Body accent stripe -->
+  <path d="M178 380 L178 420 Q179 425 181 425 L181 380Z" fill="rgba(232,200,74,0.25)"/>
+  <path d="M219 380 L219 420 Q220 425 222 425 L222 380Z" fill="rgba(232,200,74,0.25)"/>
+
+  <!-- Logo emblem -->
+  <circle cx="200" cy="400" r="12" fill="#0f0f0f" stroke="rgba(232,200,74,0.5)" stroke-width="1"/>
+  <text x="200" y="404" text-anchor="middle" fill="rgba(232,200,74,0.8)" font-size="8" font-family="Bebas Neue, sans-serif" letter-spacing="0.05em">IZ</text>
+
+  <!-- Defs for glow filter -->
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
